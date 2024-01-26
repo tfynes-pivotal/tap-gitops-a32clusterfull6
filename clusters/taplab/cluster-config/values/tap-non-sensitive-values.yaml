@@ -142,9 +142,9 @@ tap_install:
     - name: buildservice
       secrets:
       - name: reqfix-overlay-secret
-    - name: cartographer
-      secrets:
-      - name: reqfix-overlay-secret
+    # - name: cartographer
+    #   secrets:
+    #   - name: reqfix-overlay-secret
     - name: cert-manager
       secrets:
       - name: reqfix-overlay-secret
@@ -166,9 +166,9 @@ tap_install:
     - name: grype
       secrets:
       - name: reqfix-overlay-secret
-    - name: metadata-store
-      secrets:
-      - name: reqfix-overlay-secret
+    # - name: metadata-store
+    #   secrets:
+    #   - name: reqfix-overlay-secret
     - name: namespace-provisioner
       secrets:
       - name: reqfix-overlay-secret
@@ -193,12 +193,12 @@ tap_install:
     - name: spring-boot-conventions
       secrets:
       - name: reqfix-overlay-secret
-    - name: tap-auth
-      secrets:
-      - name: reqfix-overlay-secret
-    - name: tap-gui
-      secrets:
-      - name: reqfix-overlay-secret
+    # - name: tap-auth
+    #   secrets:
+    #   - name: reqfix-overlay-secret
+    # - name: tap-gui
+    #   secrets:
+    #   - name: reqfix-overlay-secret
     - name: tap-telemetry
       secrets:
       - name: reqfix-overlay-secret
