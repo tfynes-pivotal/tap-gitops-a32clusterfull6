@@ -1,6 +1,7 @@
 tap_install:
   package_repository:
-    oci_repository: harbor.harborlab.fynesy.net/tanzu17/tap-packages
+    #oci_repository: harbor.harborlab.fynesy.net/tanzu17/tap-packages
+    oci_repository: registry.tanzu.vmware.com
   version:
     package_repo_bundle_tag: 1.8.0-rc.7
     package_version: 1.8.0-rc.7

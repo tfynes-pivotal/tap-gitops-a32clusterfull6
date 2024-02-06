@@ -8,4 +8,5 @@ metadata:
 spec:
   fetch:
     imgpkgBundle:
-      image: harbor.harborlab.fynesy.net/tanzu17/tbs-full-deps:1.8.0-rc.7
+      #image: harbor.harborlab.fynesy.net/tanzu17/tbs-full-deps:1.8.0-rc.7
+      image: registry.tanzu.vmware.com/tbs-full-deps:1.8.0-rc.7
